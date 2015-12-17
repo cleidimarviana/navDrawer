@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.seamusdawkins.MainActivity">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/dwr_first"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/dwr_second" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/dwr_third" />
+        <item
+            android:id="@+id/nav_fourth_fragment"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/dwr_fourth" />
+    </group>
+
+</menu>
+
